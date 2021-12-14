@@ -1,4 +1,4 @@
-/*////  Small devices (landscape phones, 576px and max) ////*/
+/*////  Small devices (landscape phones, 400px and min) ////*/
 @media screen and (max-width: 400px) { 
 
     body{
@@ -20,10 +20,12 @@
         background-image: url( "../img/fondo2_celular_sm.jpg");
         background-position:center;
         background-repeat: no-repeat;
+        padding-bottom: 20%;
     }
 
     .unsection2{
         padding-bottom: 3rem;
+        margin-top: -90px;
       
     }
 
